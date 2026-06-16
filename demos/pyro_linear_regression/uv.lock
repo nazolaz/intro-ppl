@@ -449,25 +449,6 @@ wheels = [
 ]
 
 [[package]]
-name = "demo3"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "ipywidgets" },
-    { name = "jupyterlab" },
-    { name = "pyro-ppl" },
-    { name = "seaborn" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ipywidgets", specifier = ">=8.1.8" },
-    { name = "jupyterlab", specifier = ">=4.5.8" },
-    { name = "pyro-ppl", specifier = ">=1.9.1" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-]
-
-[[package]]
 name = "executing"
 version = "2.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1731,6 +1712,25 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/25/d7/a0812f5c16b0d4464f80a64a44626c5fe200098070be0f32436dbb662775/pyro-api-0.1.2.tar.gz", hash = "sha256:a1b900d9580aa1c2fab3b123ab7ff33413744da7c5f440bd4aadc4d40d14d920", size = 7349, upload-time = "2020-05-15T16:17:41.501Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fc/81/957ae78e6398460a7230b0eb9b8f1cb954c5e913e868e48d89324c68cec7/pyro_api-0.1.2-py3-none-any.whl", hash = "sha256:10e0e42e9e4401ce464dab79c870e50dfb4f413d326fa777f3582928ef9caf8f", size = 11981, upload-time = "2020-05-15T16:17:40.492Z" },
+]
+
+[[package]]
+name = "pyro-bayesian-regression"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "ipywidgets" },
+    { name = "jupyterlab" },
+    { name = "pyro-ppl" },
+    { name = "seaborn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipywidgets", specifier = ">=8.1.8" },
+    { name = "jupyterlab", specifier = ">=4.5.8" },
+    { name = "pyro-ppl", specifier = ">=1.9.1" },
+    { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
 [[package]]
