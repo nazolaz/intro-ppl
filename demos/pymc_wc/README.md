@@ -22,9 +22,6 @@ than a 1–0.
 5. **Visualization** — a split **violin plot** (`Set2`) of the **prior vs posterior
    distribution of winning**, plus calibration, skill-shift and probability charts (seaborn).
 
-The data snapshot is **Mon 15 June 2026**: results through 14 June are final; the remaining
-match-day-1 games (15–17 June) are simulated. To advance the model, add scores to the
-`OBSERVED` list in the notebook and re-run.
 
 ## Run it
 
