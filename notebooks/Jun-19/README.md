@@ -6,7 +6,7 @@ and run it top to bottom. No setup is required.
 
 ## Activity 1: Complete the FOPPL evaluator
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburroni/IntroPPLsLectures/blob/main/.../activity-1-complete-the-evaluator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburroni/IntroPPLs26/blob/main/notebooks/Jun-19/activity-1-complete-the-evaluator.ipynb)
 
 A FOPPL program is parsed into nested Python lists. You are given the evaluator with
 the `if` case left blank. Fill it in, then run the test: likelihood weighting on the
@@ -15,7 +15,7 @@ conjugate model `m ~ Normal(0, 1)` with `y = 2` should recover the posterior mea
 
 ## Activity 2: Measure the collapse, then fix the prior
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburroni/IntroPPLsLectures/blob/main/.../activity-2-ess-and-proposals.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburroni/IntroPPLs26/blob/main/notebooks/Jun-19/activity-2-ess-and-proposals.ipynb)
 
 Carry over the `if` line you wrote in Activity 1. Implement the effective sample size
 (ESS), measure it for a prior that sits far from the data, then design a better prior
