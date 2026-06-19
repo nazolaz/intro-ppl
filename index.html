@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introducción a los Lenguajes de Programación Probabilística · UBA · 2026</title>
+<meta name="description" content="Materia Introducción a los Lenguajes de Programación Probabilística (PPLs), FCEyN, UBA, 2026. Horarios, cronograma, formularios, material y requisitos.">
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --muted:#777;
+    --link:#1a5fb4;
+    --line:#e7e7e7;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    color:var(--ink);
+    background:#fff;
+    font-family:-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:800px;margin:0 auto;padding:4.5rem 1.4rem 6rem}
+  h1{font-size:1.6rem;font-weight:600;line-height:1.3;margin:0 0 .3rem;letter-spacing:-.01em}
+  h2{font-size:1.02rem;font-weight:600;margin:2.8rem 0 .6rem}
+  p{margin:.5rem 0}
+  a{color:var(--link);text-decoration:underline;text-underline-offset:2px}
+  a:hover{text-decoration:none}
+  .sub{color:var(--muted);margin:0 0 1.2rem}
+  .muted{color:var(--muted)}
+  .small{font-size:.9rem}
+  hr{border:none;border-top:1px solid var(--line);margin:1.4rem 0 0}
+
+  ul{margin:.5rem 0;padding-left:1.15rem}
+  li{margin:.42rem 0}
+
+  table{border-collapse:collapse;width:100%;font-size:.93rem;margin:.4rem 0}
+  th,td{text-align:left;padding:.55rem .6rem .55rem 0;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+  td:first-child{white-space:nowrap;padding-right:1.2rem}
+  .wrap-table{overflow-x:auto}
+
+  footer{max-width:800px;margin:0 auto;padding:0 1.4rem 4rem;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Introducción a los Lenguajes de Programación Probabilística</h1>
+  <p class="sub">PPLs · FCEyN, UBA · 2026</p>
+  <hr>
+
+  <h2>Para aprobar</h2>
+  <ul>
+    <li>Leer el material y completar el formulario de lectura antes de cada clase es <u>obligatorio</u> (al menos 6 de los 8; se revisa que estén completos, no la calidad).</li>
+    <li>Responder las preguntas de Poll Everywhere es <u>obligatorio</u>: el 80% de las preguntas en 6 de las 8 clases.</li>
+    <li>La asistencia es <u>obligatoria</u>: al menos 5 clases a partir de la del 19/6.</li>
+    <li>Trabajo final, que gradúa la nota.</li>
+  </ul>
+
+  <!-- ACTUALIZAR CADA CLASE: el link del formulario cambia clase a clase -->
+  <h2>Próxima clase</h2>
+  <p>Viernes 19/6: <a href="https://forms.gle/KCtohh4Tu1noWhgY9">completá el formulario de lectura</a>. Cierra una hora antes de la clase.</p>
+
+  <h2>Horarios</h2>
+  <p>
+    Lunes 18:00–19:00 · Labo 1105<br>
+    Miércoles 18:00–19:30 · Labo 1106<br>
+    Viernes 18:00–20:00 · Labo 1112
+  </p>
+  <p class="muted small">Antes de cada clase: leé el material indicado y completá el formulario. Es obligatorio y cierra una hora antes.</p>
+
+  <h2>Cronograma</h2>
+  <div class="wrap-table">
+  <table>
+    <thead>
+      <tr><th>Clase</th><th>Tema y lectura</th><th>Formulario</th><th>Slides</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1 · Mié 17/6</td>
+        <td>Introducción. Capítulo 1</td>
+        <td><a href="https://forms.gle/8UDTk87KWdrLcpYE7">Form 1</a> <span class="muted">(cerrado)</span></td>
+        <td><a href="lectures/Jun-17/lecture-01-intro.html">HTML</a> · <a href="lectures/Jun-17/presentation.pdf">PDF</a></td>
+      </tr>
+      <tr>
+        <td>2 · Vie 19/6</td>
+        <td>Cierre Cap. 1 + §&nbsp;2.1, 2.2, 4.1</td>
+        <td><a href="https://forms.gle/KCtohh4Tu1noWhgY9">Form 2</a></td>
+        <td class="muted">Próximamente</td>
+      </tr>
+      <tr>
+        <td>3 · Lun 22/6</td>
+        <td class="muted">A confirmar</td>
+        <td class="muted">Próximamente</td>
+        <td class="muted">Próximamente</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="muted small">En total se dan 8 formularios de lectura.</p>
+
+  <h2>Material</h2>
+  <p>Todo el material está en el <a href="https://github.com/jburroni/IntroPPLs26">repositorio del curso</a>: las clases en <code>lectures/</code> y las demos en <code>demos/</code>.</p>
+  <p>Demos co-creadas con Claude (cada una trae un README; se corren con <code>uv sync</code> y <code>uv run jupyter lab &lt;notebook&gt;</code>):</p>
+  <ul>
+    <li>Mundial 2026, modelo bayesiano de goles (PyMC): <a href="https://github.com/jburroni/IntroPPLs26/blob/main/demos/pymc_wc/worldcup_trueskill.ipynb">notebook</a></li>
+    <li>Regresión lineal bayesiana (Pyro): <a href="https://github.com/jburroni/IntroPPLs26/blob/main/demos/pyro_linear_regression/pyro_bayesian_regression.ipynb">notebook</a></li>
+  </ul>
+
+  <h2>Poll Everywhere</h2>
+  <p>Usamos Peer Instruction. Creá tu cuenta en <a href="https://pe.app">pe.app</a> y logueate con el <strong>mismo mail</strong> con el que figurás en la lista de la materia.</p>
+  <p><a href="https://pe.app/response_links/ae0de0b1-d586-49e5-ac3c-22d136fb884e/start">Pregunta de prueba</a>. Si no podés responder, probablemente no tengas la cuenta creada, no estés logueado/a o el mail no coincida. Si no lo resolvés, avisá en el grupo.</p>
+
+  <h2>Contacto</h2>
+  <p>Avisos y consultas: <a href="https://groups.google.com/g/introtoppl26/">grupo de Google de la materia</a>.</p>
+
+</main>
+<footer>
+  Introducción a los Lenguajes de Programación Probabilística · FCEyN, UBA · 2026 · <a href="https://github.com/jburroni/IntroPPLs26">repositorio</a>
+</footer>
+</body>
+</html>
